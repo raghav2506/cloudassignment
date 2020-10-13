@@ -1,4 +1,3 @@
 import calendar
-yy = 2020 
-mm = 10    
-print(calendar.month(yy, mm))
+htmlcal = calendar.HTMLCalendar(calendar.MONDAY)
+print(htmlcal.formatmonth(2020, 10))
